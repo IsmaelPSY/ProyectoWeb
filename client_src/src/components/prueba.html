@@ -1,14 +1,18 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
-
-import './estilos.css';
-class MasVida extends React.Component{
-   
-  render(){
-    return(<div>
-        <form action="" class="formulario">
-      <img src="./logo.png" class="imgLogo" />
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Reservas MI NEGOCIO</title>
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="logo.png" class="imgLogo" />
 
       <h1 class="formulario__titulo">MI APLICACION</h1>
       <h3 class="formulario__subtitulo">Reservas</h3>
@@ -44,10 +48,6 @@ class MasVida extends React.Component{
 
       <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
     </form>
-    <script src="js/form.js"></script>
-    </div>
-    
-    );
-  }
-}
-export default MasVida;
+    <script src="./form.js"></script>
+  </body>
+</html>

@@ -14,7 +14,7 @@ class Navbar extends Component{
             <ul className="side-nav" id="main-menu">
             <li><Link to="/">Mas Vida</Link></li>  
             <li><Link to="/meetups"><i className="fa fa-users"></i>Quiero un Centro de Salud</Link></li>  
-            <li><Link to="/cita"><i className="fa fa-plus"></i> Realizar Cita</Link></li>  
+            <li><Link to="../prueba.html"><i className="fa fa-plus"></i> Realizar Cita</Link></li>  
             <li><Link to="/diagnostico"><i className="fa fa-plus"></i> Mi diagnóstico</Link></li> 
             <li><Link to="/about"><i className="fa fa-question-circle"></i> Mas Información</Link></li> 
             </ul>
