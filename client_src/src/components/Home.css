@@ -16,7 +16,7 @@
 }
 .Home { justify-content: center; align-items: center; margin:20px 0; text-align:center; background:beige; overflow:hidden; }
 
-h1 {
+.titulo{
  
  font:bold 7.5vw/1.6 'Signika', sans-serif;
  user-select:none;

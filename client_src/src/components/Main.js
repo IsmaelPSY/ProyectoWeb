@@ -18,8 +18,8 @@ const Main = () => (
       <Route exact path='/meetups/add' component={AddMeetup} />
       <Route exact path='/meetups/edit/:id' component={EditMeetup} />
       <Route exact path='/meetups/:id' component={MeetupDetails} />
-      <Route exact path='/cita' component={Diagnostico} />
-      <Route exact path='/diagnostico' component={Cita} />
+      <Route exact path='/cita' component={Cita} />
+      <Route exact path='/diagnostico' component={Diagnostico} />
     </Switch>
   </main>
 )

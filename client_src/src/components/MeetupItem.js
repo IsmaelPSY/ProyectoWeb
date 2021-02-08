@@ -14,7 +14,7 @@ class MeetupItem extends Component{
     return (
       <li className="collection-item">
         <Link to={`/meetups/${this.state.item.id}`}>{this.state.item.name}</Link><span> - - - - - </span>
-        <p>{this.state.item.city}</p><span> - - - - - </span> <p>{this.state.item.address}</p>
+        <span> - - - - - </span> <p>{this.state.item.address}</p>
       </li>
     )
   }

@@ -13,7 +13,7 @@ class MasVida extends React.Component{
     return(
     <div className="Home">
       <React.Fragment >
-        <h1><span>♥</span><span>M</span><span>A</span><span>S</span><span>♥</span><span>V</span><span>I</span><span>D</span><span>A</span><span>♥</span></h1>
+        <h1 className="titulo"><span>♥</span><span>M</span><span>A</span><span>S</span><span>♥</span><span>V</span><span>I</span><span>D</span><span>A</span><span>♥</span></h1>
         <Container>
         <Image className="logo" src={logo}/>
         </Container>
