@@ -25,7 +25,7 @@ class AddMeetup extends Component{
 
   render(){
     return (
-     <div>
+   <div>
         <br />
        <Link className="btn grey" to="/meetups">Regresar</Link>
        <h1>Registrar Centro de Salud</h1>
@@ -44,7 +44,7 @@ class AddMeetup extends Component{
           </div>
           <input type="submit" value="Guardar" className="btn" />
         </form>
-      </div>
+      </div>  
     )
   }
 }
