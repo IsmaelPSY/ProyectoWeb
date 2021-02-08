@@ -9,7 +9,7 @@ class AddMeetup extends Component{
       url:'http://localhost:3000/api/meetups',
       data: newMeetup
     }).then(response => {
-      this.props.history.push('/');
+      this.props.history.push('/meetups');
     }).catch(err => console.log(err));
   }
 
@@ -27,22 +27,22 @@ class AddMeetup extends Component{
     return (
      <div>
         <br />
-       <Link className="btn grey" to="/">Back</Link>
-       <h1>Add Meetup</h1>
+       <Link className="btn grey" to="/meetups">Regresar</Link>
+       <h1>Registrar Centro de Salud</h1>
        <form onSubmit={this.onSubmit.bind(this)}>
           <div className="input-field">
             <input type="text" name="name" ref="name" />
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Nombre</label>
           </div>
           <div className="input-field">
             <input type="text" name="city" ref="city" />
-            <label htmlFor="city">City</label>
+            <label htmlFor="city">Descripcion</label>
           </div>
           <div className="input-field">
             <input type="text" name="address" ref="address" />
-            <label htmlFor="address">Address</label>
+            <label htmlFor="address">Contacto</label>
           </div>
-          <input type="submit" value="Save" className="btn" />
+          <input type="submit" value="Guardar" className="btn" />
         </form>
       </div>
     )

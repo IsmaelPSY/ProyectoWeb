@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import MeetupItem from './MeetupItem';
+import './Mas_infor.css';
+import { Link } from 'react-router-dom';
 
 class Meetups extends Component{
   constructor(){
@@ -32,10 +34,15 @@ class Meetups extends Component{
     })
     return (
       <div>
-        <h1>Meetups</h1>
+        <h1>Centros de Salud en Puerto Maldonado...</h1>
         <ul className="collection">
           {meetupItems}
         </ul>
+        <div className="fixed-action-btn">
+      <Link to="/meetups/add" className="btn-floating btn-large red">
+        <i className="fa fa-plus"></i>
+      </Link>
+    </div>
       </div>
     )
   }
